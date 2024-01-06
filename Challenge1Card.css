@@ -1,0 +1,60 @@
+body {
+    display: grid;
+    justify-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    padding: 164px;
+}
+
+.blogCard {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.2fr 0.3fr 1fr 0.3fr;
+    /* border: solid 1px black; */
+    box-shadow: 0px 30px 100px 0px rgb(214, 214, 214);
+    border-radius: 15px;
+    padding: 20px;
+    row-gap: 10px;
+}
+
+.contenedorImg {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJzkacxzYGJrNI64fXFGUAbz7AyTABqE7FrjUMcM83SXEHzx8QyhOLya0cRejJi9uImd0&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.boton {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: rgb(235, 213, 255);
+    padding: 5px;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.contenedorTitle {
+    display: grid;
+    align-items: center2;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.contenedorDescript span {
+    font-weight: lighter;
+}
+
+.contenedorAutor {
+    display: grid;
+    align-items: end;
+    font-size: 12px;
+    font-weight: normal;
+    border-top: 1px gray solid;;
+
+}
